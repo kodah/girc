@@ -5,6 +5,7 @@ import (
 	"github.com/guark/plugins/clipboard"
 	"github.com/guark/plugins/dialog"
 	"github.com/guark/plugins/notify"
+
 	"github.com/kodah/girc/lib/funcs"
 	"github.com/kodah/girc/lib/hooks"
 )

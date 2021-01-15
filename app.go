@@ -9,9 +9,8 @@ import (
 )
 
 func main() {
-
 	a := &app.App{
-		Log:     log.New("app"),
+		Log:     log.New("girc"),
 		Hooks:   lib.Hooks,
 		Funcs:   lib.Funcs,
 		Embed:   lib.Embeds,

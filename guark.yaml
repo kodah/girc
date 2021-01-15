@@ -1,10 +1,10 @@
 guark: v1
 
 # App id must be unique.
-id: GuarkDemo
+id: gIRC
 
 # Your App name.
-name: Guark Demo
+name: gIRC
 
 # App version.
 version: v1.0.0
