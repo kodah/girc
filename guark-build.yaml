@@ -1,7 +1,7 @@
 # Guark build config file.
 
 setup:
-  - cmd: yarn install
+  - cmd: npm install
     dir: ui
   - cmd: go mod download
   - cmd: go mod tidy

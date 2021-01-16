@@ -1,8 +1,8 @@
 id: {{ .ID }}
 name: {{ .Name }}
 version: {{ .Version }}
-publisher: Example LTD
-description: Your app description here.
+publisher: kodah
+description: gIRC is a Go, Vue, and Electron IRC application
 bundles:
   - type: msi
     source: dist/windows
