@@ -3,7 +3,7 @@ package hooks
 import (
 	"github.com/guark/guark/app"
 
-	"github.com/kodah/girc/irc/manager"
+	"github.com/kodah/girc/irc"
 	"github.com/kodah/girc/store"
 )
 
@@ -18,8 +18,7 @@ func Created(a *app.App) error {
 	}
 
 	// open a new irc connection manager
-	manager.New()
-	_, err = manager.Service.NewClient(
+	_, err = irc.New(
 		"girc-test",
 		"",
 		"girc-test",
